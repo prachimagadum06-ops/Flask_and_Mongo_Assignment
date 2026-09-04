@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Success</h1>
+
+    <div class="success">
+        Data submitted successfully
+    </div>
+
+    <a href="{{ url_for('home') }}" class="button">
+        Submit Another Response
+    </a>
+
+</div>
+
+</body>
+</html>
