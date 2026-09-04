@@ -1,0 +1,71 @@
+FLASK & MONGODB
+DEVOPS ASSIGNMENT
+
+Submitted By:
+Your Full Name
+
+GitHub Repository:
+YOUR GITHUB LINK
+
+Technology Used:
+Python
+Flask
+MongoDB Atlas
+HTML
+CSS
+Git & GitHub
+
+
+Introduction:
+   This project implements a Flask web application 
+   integrated with MongoDB Atlas. The application provides 
+   a JSON API route at /api that reads data from a backend JSON file 
+   and returns it as a JSON response. It also provides a frontend form 
+   that accepts user information and stores the submitted data in
+   MongoDB Atlas. The application includes success handling through 
+   redirection to a success page and error handling that displays the 
+   error on the same form page.
+
+
+Tools and Tecnologies:
+     Python
+     Flask
+     PyMongo
+     MongoDB Atlas
+     HTML
+     CSS
+     Git
+     GitHub
+     VS Code
+
+Project Structure:
+      Flask_and_MongoDB_YourName/
+│
+├── app.py
+├── data.json
+├── requirements.txt
+├── .env
+├── .gitignore
+│
+├── templates/
+│   ├── index.html
+│   └── success.html
+│
+└── static/
+    └── style.css
+
+app.py contains the Flask application and routes. 
+data.json contains backend JSON data used by the API route. 
+templates contains the HTML pages. static contains CSS styling. 
+.env stores the MongoDB connection string and is excluded from GitHub 
+using .gitignore. requirements.txt contains the Python dependencies.
+
+
+
+MongoDB Configuration:
+
+  MongoDB Atlas was configured as the cloud database for 
+  this project. A database user was created and network access 
+  was configured. The MongoDB Atlas connection string was stored 
+  in the .env file instead of directly writing credentials inside
+  the application source code.
